@@ -1,0 +1,20 @@
+body{
+	background-color:#fff;
+	margin:0;
+	overflow:hidden;
+}
+
+#canvas{
+	background:#fff;
+	width: 1081px;
+	height: 929px;
+}
+
+#info{
+	position:absolute;
+	z-index:100;
+	cursor:default;
+	font-family:sans-serif;
+	font-size:34px;
+	color:#396AB1;
+}
