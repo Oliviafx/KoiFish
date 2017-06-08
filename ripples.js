@@ -1,13 +1,10 @@
-/**  https://davealger.com  **/
-
-// pure javascript - no jQuery was harmed in the creation of this function
 function init() {
     QUALITY = 2;
     WIDTH = Math.floor(window.innerWidth / QUALITY);
     HEIGHT = Math.floor(window.innerHeight / QUALITY);
     SIZE = WIDTH * HEIGHT;
     container = document.getElementById("container");
-    canvas = document.getElementById("canvas");
+    canvas = document.getElementById("myCanvas");
     canvas.width = WIDTH;
     canvas.height = HEIGHT;
     canvas.style.width = window.innerWidth + "px";
@@ -24,9 +21,7 @@ function init() {
         buffer1[e] = 0;
         buffer2[e] = 0
     }
-    txt = document.getElementById("info");
-    txt.style.top = Math.floor(window.innerHeight / QUALITY) - 120 + "px";
-    txt.style.left = Math.floor(window.innerWidth / QUALITY) - 240 + "px"
+
 }
 
 function addEventBindings() {
@@ -163,6 +158,8 @@ function clickNS(e) {
         }
     }
 }
+
+
 var QUALITY;
 var WIDTH;
 var HEIGHT;
