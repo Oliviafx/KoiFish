@@ -1,6 +1,9 @@
+@import
+url(https://fonts.googleapis.com/css?family=Lato:300|Raleway:300)
+
 body {
-	overflow: hidden;
-	background-color: #1E3358;
+	 overflow: hidden;
+	 background-color: #1E3358;
   	background-image: linear-gradient(transparent 50%, #fff 50%);
   	background-size: 50px 80px;
 }
@@ -21,6 +24,8 @@ body {
 }
 
 h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: thin;
 	text-align: center;
 	color: #FF4500;
 }
