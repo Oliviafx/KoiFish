@@ -1,6 +1,6 @@
 var c = document.getElementById("myCanvas"); //food
 var ctx = c.getContext("2d");
-ctx.strokeStyle="#FFFF00";
+ctx.strokeStyle="#FF4500";
 
 c.onclick = function(){
 	var Xcoord = event.clientX;
