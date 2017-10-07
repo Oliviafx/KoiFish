@@ -1,4 +1,4 @@
 # Koi_Fish
-Learning Koi Fish Animations. 
+Learning Koi Fish Animations. Attempting for now, through the use of JS. 
 
-# Currently Under Construction
+<large> <strong> Currently Under Construction </strong> </large>
